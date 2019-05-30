@@ -1,3 +1,5 @@
+<img  src="https://github.com/auroracreation/frontend-recruitment-task-header-with-menu/blob/master/logo.png"  alt="Aurora Creation logo"/>
+
 # Zadanie rekrutacyjne Frontend - stworzenie headera wraz z menu
 
 
