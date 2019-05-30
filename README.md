@@ -43,7 +43,7 @@ W folderze src znajdziesz plik z zadaniem w formacie .psd. Rozwiąż zadanie na 
 
 ## Czego należy unikać?
 
-1. Nie możesz używać bibliotek czy frameworków pokroju Bootstrapa czy Foundation. Chcemy zoabczyć jak tworzysz layout bez ich użycia.
+1. Nie możesz używać bibliotek czy frameworków pokroju Bootstrapa czy Foundation. Chcemy zobaczyć jak tworzysz layout bez ich użycia.
 
 
 ## Przeglądarki
