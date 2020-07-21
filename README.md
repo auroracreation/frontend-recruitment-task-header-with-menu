@@ -23,11 +23,11 @@ W folderze src znajdziesz plik z zadaniem w formacie .psd. Rozwiąż zadanie na 
 1. Użycie HTML i CSS do rozwiązania zadania.
 2. RWD - użyj breakpointów wedle własnego uznania.
 
-
 ## Co może (ale nie musi) być zawarte w rozwiązaniu
 
-1. Preprocesor CSS (np. Sass).
-2. Używanie managera pakietów.
+1. Preprocesor CSS np.: Less,
+2. Managera pakietów wraz z taskrunnerem np.: Grunt,
+3. Zewnętrzna biblioteka/i JS - jeśli uznasz za konieczne.
 
 ## Na co warto zwrócić uwagę?
 
@@ -35,7 +35,7 @@ W folderze src znajdziesz plik z zadaniem w formacie .psd. Rozwiąż zadanie na 
 3. Użycie layout model flexbox i/lub grid.
 4. Poprawny wygląd na różnych urządzeniach, systemach operacyjnych i przeglądarkach.
 5. Używanie zmiennych CSS.
-6. Używanie metodyk CSS (np. BEM).
+6. Używanie metodyk CSS (np. SMACSS).
 7. Korzystanie z systemu kontroli wersji podczas pracy.
 8. Animacje na elementach, które mogą tego wymagać (np. przyciski).
 9. Struktura projektu - np. oddzielne pliki CSS.
