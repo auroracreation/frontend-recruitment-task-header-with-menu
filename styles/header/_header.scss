@@ -170,7 +170,7 @@ header{
         .header__bar{
             flex-flow: column wrap;
             margin: 1rem 0 5rem 0;
-            position: relative;
+            width: 100vw;
 
             .header__bar--aurora-logo{
                 display: none;
@@ -187,6 +187,7 @@ header{
                 margin-right: 2em;
                 position: fixed;
                 top: 6rem;
+                right: 1px;
                 width: 9em;
                 z-index: 3;
     
@@ -203,6 +204,7 @@ header{
     
         .header__navbar{
             align-items: center;
+            display: none;
             flex-flow: column wrap;
             font-size: 16px;
             height: 65vh;

@@ -31,4 +31,8 @@
     @media screen and (max-width: 980px) and (min-width: 769px){
         width: 25em;
     }
+    @media screen and (max-width: 768px) and (min-width: 501px){
+        display: none;
+        width: 25em;
+    }
 }
