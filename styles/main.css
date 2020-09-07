@@ -1,0 +1,201 @@
+.header__high-bar__konto-side--login-button {
+  height: 3em;
+  border-left: solid 1px #CDCDCD;
+  line-height: 35px;
+  text-align: center;
+  width: 10em; }
+  @media screen and (max-width: 980px) and (min-width: 768px) {
+    .header__high-bar__konto-side--login-button {
+      height: 2.5em;
+      line-height: 25px; } }
+
+.header__bar__form--search-field {
+  border: none;
+  border-bottom: 1px solid black;
+  font-size: 14px;
+  padding: .5em 0 .5em .5em;
+  width: 30em; }
+  .header__bar__form--search-field:focus {
+    outline: none;
+    border: none;
+    border-bottom: 1px solid black; }
+
+header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: column nowrap;
+          flex-flow: column nowrap;
+  width: 75em; }
+  header .header__high-bar {
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-flow: row nowrap;
+            flex-flow: row nowrap;
+    font-family: 'Raleway', sans-serif;
+    font-size: 12px;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    border-bottom: solid 1px #CDCDCD; }
+    header .header__high-bar .header__high-bar__contact-side {
+      width: 25em;
+      height: 3em;
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-orient: horizontal;
+      -webkit-box-direction: normal;
+          -ms-flex-flow: row nowrap;
+              flex-flow: row nowrap;
+      -webkit-box-align: center;
+          -ms-flex-align: center;
+              align-items: center;
+      -webkit-box-pack: space-evenly;
+          -ms-flex-pack: space-evenly;
+              justify-content: space-evenly; }
+      header .header__high-bar .header__high-bar__contact-side p {
+        margin: 0; }
+    header .header__high-bar .header__high-bar__konto-side {
+      width: 20em;
+      height: 3em;
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-orient: horizontal;
+      -webkit-box-direction: normal;
+          -ms-flex-flow: row nowrap;
+              flex-flow: row nowrap;
+      -webkit-box-align: center;
+          -ms-flex-align: center;
+              align-items: center;
+      -webkit-box-pack: space-evenly;
+          -ms-flex-pack: space-evenly;
+              justify-content: space-evenly; }
+  header .header__bar {
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-flow: row nwrap;
+            flex-flow: row nwrap;
+    font-family: 'Hind Madurai', sans-serif;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between; }
+    header .header__bar .header__bar__form {
+      margin-left: 8em; }
+    header .header__bar .header__bar__container-koszyk {
+      -webkit-box-align: center;
+          -ms-flex-align: center;
+              align-items: center;
+      cursor: pointer;
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-orient: horizontal;
+      -webkit-box-direction: normal;
+          -ms-flex-flow: row nowrap;
+              flex-flow: row nowrap;
+      -webkit-box-pack: space-evenly;
+          -ms-flex-pack: space-evenly;
+              justify-content: space-evenly;
+      margin-right: 2em;
+      width: 9em; }
+      header .header__bar .header__bar__container-koszyk .header__bar__container-koszyk--koszyk-image {
+        height: 1.5em;
+        width: 1.5em; }
+        header .header__bar .header__bar__container-koszyk .header__bar__container-koszyk--koszyk-image::after {
+          content: '3';
+          display: block; }
+      header .header__bar .header__bar__container-koszyk .header__bar__container-koszyk--koszyk-name {
+        font-size: 14px;
+        font-weight: 600; }
+  header .header__navbar {
+    -ms-flex-item-align: center;
+        align-self: center;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-flow: row nowrap;
+            flex-flow: row nowrap;
+    font-family: 'Raleway', sans-serif;
+    font-size: 12px;
+    font-weight: 700;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    padding: 0 0 1em 0;
+    list-style-type: none;
+    width: 80em;
+    border-bottom: 2px solid #dddddd; }
+    header .header__navbar a:hover {
+      color: #3b3b3b; }
+
+@media screen and (max-width: 980px) and (min-width: 768px) {
+  header {
+    width: 50em; }
+    header .header__high-bar {
+      font-size: 10px; }
+      header .header__high-bar .header__high-bar__contact-side {
+        width: 25em;
+        height: 2.5em;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-orient: horizontal;
+        -webkit-box-direction: normal;
+            -ms-flex-flow: row nowrap;
+                flex-flow: row nowrap; }
+      header .header__high-bar .header__high-bar__konto-side {
+        width: 20em;
+        height: 2.5em;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-orient: horizontal;
+        -webkit-box-direction: normal;
+            -ms-flex-flow: row nowrap;
+                flex-flow: row nowrap; }
+    header .header__bar .header__bar__form {
+      margin: 0 0 0 2rem; }
+    header .header__bar .header__bar__container-koszyk {
+      margin-right: 2em;
+      width: 9em; }
+      header .header__bar .header__bar__container-koszyk .header__bar__container-koszyk--koszyk-image {
+        height: 1.5em;
+        width: 1.5em; }
+      header .header__bar .header__bar__container-koszyk .header__bar__container-koszyk--koszyk-name {
+        font-size: 14px; }
+    header .header__navbar {
+      font-size: 12px;
+      width: 85em; } }
+body {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center; }
+  body a {
+    color: black;
+    outline: none;
+    text-decoration: none; }
+    body a:focus {
+      text-decoration: underline; }
+
+/*# sourceMappingURL=main.css.map */
