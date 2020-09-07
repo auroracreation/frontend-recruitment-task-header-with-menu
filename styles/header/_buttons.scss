@@ -1,0 +1,26 @@
+.header__high-bar__konto-side--login-button{
+    height: 3em;
+    border-left: solid 1px #CDCDCD;
+    line-height: 35px;
+    text-align: center;
+    width: 10em;
+
+    @media screen and (max-width: 980px) and (min-width: 768px){
+        height: 2.5em;
+        line-height: 25px;
+    }
+}
+
+.header__bar__form--search-field{
+    border: none;
+    border-bottom: 1px solid black;
+    font-size: 14px;
+    padding: .5em 0 .5em .5em;
+    width: 30em;
+
+    &:focus{
+        outline: none;
+        border: none;
+        border-bottom: 1px solid black;
+    }
+}
