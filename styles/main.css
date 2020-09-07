@@ -236,8 +236,8 @@ header {
         width: 9em;
         z-index: 3; }
         header .header__bar .header__bar__container-koszyk .header__bar__container-koszyk--koszyk-image {
-          height: 1.5em;
-          width: 1.5em; }
+          height: 2em;
+          width: 2em; }
         header .header__bar .header__bar__container-koszyk .header__bar__container-koszyk--koszyk-name {
           font-size: 14px; }
     header .header__navbar {
