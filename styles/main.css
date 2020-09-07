@@ -19,6 +19,9 @@
     outline: none;
     border: none;
     border-bottom: 1px solid black; }
+  @media screen and (max-width: 980px) and (min-width: 768px) {
+    .header__bar__form--search-field {
+      width: 25em; } }
 
 header {
   display: -webkit-box;
