@@ -19,7 +19,7 @@
     outline: none;
     border: none;
     border-bottom: 1px solid black; }
-  @media screen and (max-width: 980px) and (min-width: 768px) {
+  @media screen and (max-width: 980px) and (min-width: 769px) {
     .header__bar__form--search-field {
       width: 25em; } }
 
@@ -149,7 +149,7 @@ header {
     header .header__navbar a:hover {
       color: #3b3b3b; }
 
-@media screen and (max-width: 980px) and (min-width: 768px) {
+@media screen and (max-width: 980px) and (min-width: 769px) {
   header {
     width: 50em; }
     header .header__high-bar {
@@ -186,7 +186,45 @@ header {
         font-size: 14px; }
     header .header__navbar {
       font-size: 12px;
-      width: 85em; } }
+      width: 64em; } }
+@media screen and (max-width: 768px) and (min-width: 501px) {
+  header {
+    width: 50em; }
+    header .header__high-bar {
+      font-size: 10px; }
+      header .header__high-bar .header__high-bar__contact-side {
+        width: 25em;
+        height: 2.5em;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-orient: horizontal;
+        -webkit-box-direction: normal;
+            -ms-flex-flow: row nowrap;
+                flex-flow: row nowrap; }
+      header .header__high-bar .header__high-bar__konto-side {
+        width: 20em;
+        height: 2.5em;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-orient: horizontal;
+        -webkit-box-direction: normal;
+            -ms-flex-flow: row nowrap;
+                flex-flow: row nowrap; }
+    header .header__bar .header__bar__form {
+      margin: 0 0 0 2rem; }
+    header .header__bar .header__bar__container-koszyk {
+      margin-right: 2em;
+      width: 9em; }
+      header .header__bar .header__bar__container-koszyk .header__bar__container-koszyk--koszyk-image {
+        height: 1.5em;
+        width: 1.5em; }
+      header .header__bar .header__bar__container-koszyk .header__bar__container-koszyk--koszyk-name {
+        font-size: 14px; }
+    header .header__navbar {
+      font-size: 12px;
+      width: 64em; } }
 body {
   display: -webkit-box;
   display: -ms-flexbox;
