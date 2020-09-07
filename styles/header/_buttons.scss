@@ -5,7 +5,11 @@
     text-align: center;
     width: 10em;
 
-    @media screen and (max-width: 980px) and (min-width: 768px){
+    @media screen and (max-width: 980px) and (min-width: 769px){
+        height: 2.5em;
+        line-height: 25px;
+    }
+    @media screen and (max-width: 768px) and (min-width: 501px){
         height: 2.5em;
         line-height: 25px;
     }

@@ -152,7 +152,7 @@ header{
 
 @media screen and (max-width: 768px) and (min-width: 501px){
     header{
-        width: 50em;
+        width: 100vw;
     
         .header__high-bar{
             font-size: 10px;
@@ -168,7 +168,14 @@ header{
     
     
         .header__bar{
-            
+            flex-flow: column wrap;
+            margin: 1rem 0 5rem 0;
+            position: relative;
+
+            .header__bar--aurora-logo{
+                display: none;
+            }
+
             .header__bar__form{
               margin: 0 0 0 2rem;
     
@@ -176,8 +183,12 @@ header{
             }
     
             .header__bar__container-koszyk{
+                align-self: flex-end;
                 margin-right: 2em;
+                position: fixed;
+                top: 6rem;
                 width: 9em;
+                z-index: 3;
     
                 .header__bar__container-koszyk--koszyk-image{
                     height: 1.5em;
