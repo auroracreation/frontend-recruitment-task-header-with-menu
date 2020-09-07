@@ -1,0 +1,6 @@
+@mixin header__high-bar--set-size($width, $height, $display, $flex-flow){
+    width: $width;
+    height: $height;
+    display: $display;
+    flex-flow: $flex-flow;
+}
