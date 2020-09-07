@@ -202,8 +202,12 @@ header{
     
     
         .header__navbar{
-            font-size: 12px;
-            width: 64em;            
+            align-items: center;
+            flex-flow: column wrap;
+            font-size: 16px;
+            height: 65vh;
+            justify-content: space-around;
+            width: 100vw;            
         }
     }
 }

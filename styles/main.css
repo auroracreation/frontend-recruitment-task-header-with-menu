@@ -241,8 +241,18 @@ header {
         header .header__bar .header__bar__container-koszyk .header__bar__container-koszyk--koszyk-name {
           font-size: 14px; }
     header .header__navbar {
-      font-size: 12px;
-      width: 64em; } }
+      -webkit-box-align: center;
+          -ms-flex-align: center;
+              align-items: center;
+      -webkit-box-orient: vertical;
+      -webkit-box-direction: normal;
+          -ms-flex-flow: column wrap;
+              flex-flow: column wrap;
+      font-size: 16px;
+      height: 65vh;
+      -ms-flex-pack: distribute;
+          justify-content: space-around;
+      width: 100vw; } }
 body {
   display: -webkit-box;
   display: -ms-flexbox;
