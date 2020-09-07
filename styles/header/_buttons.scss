@@ -36,3 +36,19 @@
         width: 25em;
     }
 }
+
+.--menu-icon{
+    cursor: pointer;
+    display: none;
+    font-size: 55px;
+    justify-content: center;
+    
+    width: 100vw;
+    height: 2rem;
+
+    background-color: rgb(253, 236, 242);
+
+    @media screen and (max-width: 768px) and (min-width: 501px){
+        display: flex;
+    }
+}
