@@ -1,0 +1,102 @@
+@import '_mixins';
+@import '_buttons';
+
+header{
+    display: flex;
+    flex-flow: column nowrap;
+    width: 75em;
+
+    .header__high-bar{
+        align-items: center;
+        display: flex;
+        flex-flow: row nowrap;
+        font-family: 'Raleway', sans-serif;
+        font-size: 12px;
+        justify-content: space-between;
+
+        border-bottom: solid 1px #CDCDCD;
+
+        .header__high-bar__contact-side{
+            @include header__high-bar--set-size(25em, 3em, flex, row nowrap);
+            align-items: center;
+            justify-content: space-evenly;
+
+            p{
+                margin: 0;
+            }
+        }
+
+        .header__high-bar__konto-side{
+            @include header__high-bar--set-size(20em, 3em, flex, row nowrap);
+            align-items: center;
+            justify-content: space-evenly;
+        }
+    }
+
+
+    .header__bar{
+        align-items: center;
+        display: flex;
+        flex-flow: row nwrap;
+        font-family: 'Hind Madurai', sans-serif;
+        justify-content: space-between;
+
+        .header__bar__form{
+            margin-left: 8em;
+
+            .header__bar__form--search-field{       }
+        }
+
+        .header__bar__container-koszyk{
+            align-items: center;
+            cursor: pointer;
+            display: flex;
+            flex-flow: row nowrap;
+            justify-content: space-evenly;
+            margin-right: 2em;
+            width: 9em;
+
+            .header__bar__container-koszyk--koszyk-image{
+                height: 1.5em;
+                width: 1.5em;
+
+                &::after{
+                    content: '3';
+                    display: block;
+                    // position: absolute;
+                    // top: 5px;
+                    // left: 10px;
+                    // overflow: hidden;
+                }
+            }
+            .header__bar__container-koszyk--koszyk-name{
+                font-size: 14px;
+                font-weight: 600;
+            }
+        }
+    }
+
+
+    .header__navbar{
+        align-self: center;
+        display: flex;
+        flex-flow: row nowrap;
+        font-family: 'Raleway', sans-serif;
+        font-size: 12px;
+        font-weight: 700;     
+        justify-content: space-between;
+        padding: 0 0 1em 0;  
+        list-style-type: none;
+        width: 80em;
+
+        border-bottom: 2px solid #dddddd;
+
+        a{
+
+            &:hover{
+                color: rgb(59, 59, 59);
+            }
+        }
+        
+    }
+}
