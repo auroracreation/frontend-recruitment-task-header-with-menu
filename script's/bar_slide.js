@@ -10,7 +10,7 @@ function barSlider(event){
     menuIconElem.classList.add('--bar-open')
     headerNavbar.style.display = 'flex';
     searchField.style.display = 'flex';
-    menuIconElem.innerHTML = 'X';
+    menuIconElem.innerHTML = 'x';
 }
 
 header.addEventListener('click', barSlider)

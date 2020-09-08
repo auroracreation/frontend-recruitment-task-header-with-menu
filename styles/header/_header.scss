@@ -43,6 +43,8 @@ header{
 
         .--menu-icon{
             display: block;
+            line-height: 30px;
+            text-align: center;
             position: fixed;
             margin: 0;
             top: 1.8rem;
@@ -178,7 +180,7 @@ header{
     
         .header__bar{
             flex-flow: column wrap;
-            margin: 1rem 0 5rem 0;
+            margin: 2.5rem 0 5rem 0;
             width: 100vw;
 
             .header__bar--aurora-logo{
