@@ -46,6 +46,13 @@
     }
 }
 
+.header__bar__form--search-button{
+
+    @media screen and (max-width: 768px){
+        display: none;
+    }
+}
+
 .--menu-icon{
     align-items: center;
     cursor: pointer;

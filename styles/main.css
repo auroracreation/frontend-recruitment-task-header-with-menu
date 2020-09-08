@@ -40,6 +40,10 @@
       display: none;
       width: 60vw; } }
 
+@media screen and (max-width: 768px) {
+  .header__bar__form--search-button {
+    display: none; } }
+
 .--menu-icon {
   -webkit-box-align: center;
       -ms-flex-align: center;
@@ -156,7 +160,7 @@ header {
         -ms-flex-pack: justify;
             justify-content: space-between; }
     header .header__bar .--menu-icon {
-      display: block;
+      display: none;
       line-height: 30px;
       text-align: center;
       position: -webkit-sticky;
@@ -289,6 +293,10 @@ header {
               flex-flow: column wrap;
       margin: 1px 0 5rem 0;
       width: 100vw; }
+      header .header__bar .--menu-icon {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex; }
       header .header__bar .header__bar--aurora-logo {
         display: none; }
       header .header__bar .header__bar__form {
@@ -355,6 +363,9 @@ header {
       margin: 2rem 0 5rem 0;
       width: 100vw; }
       header .header__bar .--menu-icon {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
         margin: -2rem 0 0 0; }
       header .header__bar .header__bar--aurora-logo {
         display: none; }

@@ -43,7 +43,7 @@ header{
         justify-content: space-between;
 
         .--menu-icon{
-            display: block;
+            display: none;
             line-height: 30px;
             text-align: center;
             position: sticky;
@@ -190,7 +190,7 @@ header{
             width: 100vw;
 
             .--menu-icon{
-
+                display: flex;
             }
 
             .header__bar--aurora-logo{
@@ -260,6 +260,7 @@ header{
             width: 100vw;
 
             .--menu-icon{
+                display: flex;
                 margin: -2rem 0 0 0;
             }
 
