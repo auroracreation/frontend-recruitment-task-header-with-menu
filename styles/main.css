@@ -12,6 +12,11 @@
     .header__high-bar__konto-side--login-button {
       height: 2.5em;
       line-height: 25px; } }
+  @media screen and (max-width: 500px) {
+    .header__high-bar__konto-side--login-button {
+      font-size: 13px;
+      height: 2.4em;
+      line-height: 35px; } }
 
 .header__bar__form--search-field {
   border: none;
@@ -30,18 +35,30 @@
     .header__bar__form--search-field {
       display: none;
       width: 25em; } }
+  @media screen and (max-width: 500px) {
+    .header__bar__form--search-field {
+      display: none;
+      width: 25em; } }
 
 .--menu-icon {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   cursor: pointer;
   display: none;
   font-size: 55px;
+  height: 2rem;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
   width: 100vw;
-  height: 2rem;
   background-color: #fdecf2; }
   @media screen and (max-width: 768px) and (min-width: 501px) {
+    .--menu-icon {
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex; } }
+  @media screen and (max-width: 500px) {
     .--menu-icon {
       display: -webkit-box;
       display: -ms-flexbox;
@@ -266,6 +283,70 @@ header {
           -ms-flex-align: center;
               align-items: center;
       display: none;
+      -webkit-box-orient: vertical;
+      -webkit-box-direction: normal;
+          -ms-flex-flow: column wrap;
+              flex-flow: column wrap;
+      font-size: 16px;
+      height: 65vh;
+      -ms-flex-pack: distribute;
+          justify-content: space-around;
+      width: 100vw; } }
+@media screen and (max-width: 500px) {
+  header {
+    width: 100vw; }
+    header .header__high-bar {
+      font-size: 10px; }
+      header .header__high-bar .header__high-bar__contact-side {
+        width: 25em;
+        height: 2.5em;
+        display: none;
+        -webkit-box-orient: horizontal;
+        -webkit-box-direction: normal;
+            -ms-flex-flow: row nowrap;
+                flex-flow: row nowrap; }
+      header .header__high-bar .header__high-bar__konto-side {
+        width: 25em;
+        height: 3em;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-orient: horizontal;
+        -webkit-box-direction: normal;
+            -ms-flex-flow: row nowrap;
+                flex-flow: row nowrap; }
+    header .header__bar {
+      -webkit-box-orient: vertical;
+      -webkit-box-direction: normal;
+          -ms-flex-flow: column wrap;
+              flex-flow: column wrap;
+      margin: 1rem 0 5rem 0;
+      width: 100vw; }
+      header .header__bar .header__bar--aurora-logo {
+        display: none; }
+      header .header__bar .header__bar__form {
+        margin: 0 0 0 2rem; }
+      header .header__bar .header__bar__container-koszyk {
+        -ms-flex-item-align: end;
+            align-self: flex-end;
+        margin-right: 2em;
+        position: fixed;
+        right: 1px;
+        top: 6rem;
+        width: 9em;
+        z-index: 3; }
+        header .header__bar .header__bar__container-koszyk .header__bar__container-koszyk--koszyk-image {
+          height: 2em;
+          width: 2em; }
+        header .header__bar .header__bar__container-koszyk .header__bar__container-koszyk--koszyk-name {
+          font-size: 14px; }
+    header .header__navbar {
+      -webkit-box-align: center;
+          -ms-flex-align: center;
+              align-items: center;
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
       -webkit-box-orient: vertical;
       -webkit-box-direction: normal;
           -ms-flex-flow: column wrap;
