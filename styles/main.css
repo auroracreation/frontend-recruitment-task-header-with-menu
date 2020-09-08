@@ -6,6 +6,8 @@
   width: 10em; }
   .header__high-bar__konto-side--login-button:last-child {
     border-right: 1px solid #CDCDCD; }
+  .header__high-bar__konto-side--login-button:hover {
+    text-decoration: underline; }
   @media screen and (max-width: 980px) and (min-width: 769px) {
     .header__high-bar__konto-side--login-button {
       height: 2.5em;
