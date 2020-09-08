@@ -225,6 +225,8 @@ header {
         -webkit-box-direction: normal;
             -ms-flex-flow: row nowrap;
                 flex-flow: row nowrap; }
+    header .header__bar .--menu-icon {
+      display: none; }
     header .header__bar .header__bar__form {
       margin: 0 0 0 2rem; }
     header .header__bar .header__bar__container-koszyk {

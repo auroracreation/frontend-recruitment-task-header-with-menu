@@ -131,6 +131,10 @@ header{
     
     
         .header__bar{
+
+            .--menu-icon{
+                display: none;
+            }
             
             .header__bar__form{
               margin: 0 0 0 2rem;
