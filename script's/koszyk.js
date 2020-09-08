@@ -1,9 +1,8 @@
 "use strict"
 
-let header = document.body.querySelector('header')
-
-function barSlider(event){
+function koszykOpening(event){
+    if(!event.target.classList.contains('header__bar__container-koszyk')) return;
     
 }
 
-header.addEventListener('click', barSlider)
+header.addEventListener('click', koszykOpening)
