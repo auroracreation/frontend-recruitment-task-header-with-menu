@@ -6,11 +6,21 @@ let searchField = document.body.querySelector('.header__bar__form--search-field'
 let menuIconElem = document.body.querySelector(".--menu-icon")
 
 function barSlider(event){
-    if(event.target.className != '--menu-icon') return;
-    menuIconElem.classList.add('--bar-open')
-    headerNavbar.style.display = 'flex';
-    searchField.style.display = 'flex';
-    menuIconElem.innerHTML = 'x';
+    if(!event.target.classList.contains('--menu-icon')) return;
+    if(!menuIconElem.classList.contains('--bar-open')){
+        menuIconElem.classList.add('--bar-open')
+        headerNavbar.style.display = 'flex';
+        searchField.style.display = 'flex';
+        menuIconElem.innerHTML = 'x';
+        return;
+    }
+    if(menuIconElem.classList.contains('--bar-open')){
+        console.log('asdf')
+        menuIconElem.classList.remove('--bar-open')
+        headerNavbar.style.display = 'none';
+        searchField.style.display = 'none';
+        menuIconElem.innerHTML = '-';
+    }
 }
 
 header.addEventListener('click', barSlider)
