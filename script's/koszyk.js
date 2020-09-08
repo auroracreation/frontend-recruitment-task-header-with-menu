@@ -15,9 +15,11 @@ function koszykOpening(event){
         koszykElem.insertAdjacentHTML('beforeend', 
         `<div id='koszykPanel'>
             <img src='' />
-            <h3>seven</h3>
-            <p>one two</h3>
-            <p>$30</h3>
+            <h3>Kjirgen 30V</h3>
+            <p>Discription:</p>
+            <p>one two</p>
+            <p>Cost:</p>
+            <p>$30</p>
         </div>`
         )
         return;

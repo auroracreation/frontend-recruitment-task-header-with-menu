@@ -69,10 +69,13 @@
   grid-template-columns: 1fr 1fr;
   grid-template-rows: 1fr 1fr 1fr;
   text-align: center;
-  width: 10em;
+  width: 15em;
   position: fixed;
   top: 7rem;
   right: 10px;
+  font-size: 12px;
+  -webkit-transition: all 1s;
+  transition: all 1s;
   border: 1px solid #fcdfef;
   border-radius: 5px;
   background-color: #fff; }

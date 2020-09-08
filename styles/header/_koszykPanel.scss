@@ -3,10 +3,12 @@
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr 1fr 1fr;
     text-align: center;
-    width: 10em;
+    width: 15em;
     position: fixed;
     top: 7rem;
     right: 10px;
+    font-size: 12px;
+    transition: all 1s;
     
     border: 1px solid rgb(252, 223, 239);
     border-radius: 5px;
