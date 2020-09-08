@@ -17,7 +17,7 @@ function koszykOpening(event){
             <img src='' />
             <h3>Kjirgen 30V</h3>
             <p>Discription:</p>
-            <p>one two</p>
+            <p>The best of the best medical thing. Just only here. Just do it.</p>
             <p>Cost:</p>
             <p>$30</p>
         </div>`

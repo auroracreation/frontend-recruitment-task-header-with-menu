@@ -160,7 +160,9 @@ header {
         -ms-flex-pack: justify;
             justify-content: space-between; }
     header .header__bar .--menu-icon {
+      color: #CDCDCD;
       display: none;
+      font-size: 12px;
       line-height: 30px;
       text-align: center;
       position: -webkit-sticky;
@@ -412,4 +414,5 @@ body {
     text-decoration: none; }
     body a:focus {
       text-decoration: underline; }
+
 /*# sourceMappingURL=main.css.map */
