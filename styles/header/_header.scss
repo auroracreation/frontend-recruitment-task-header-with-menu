@@ -41,6 +41,15 @@ header{
         font-family: 'Hind Madurai', sans-serif;
         justify-content: space-between;
 
+        .--menu-icon{
+            display: block;
+            position: fixed;
+            margin: 0;
+            top: 1.8rem;
+            right: 0;
+            left: 0;
+        }
+
         .header__bar__form{
             margin-left: 8em;
 

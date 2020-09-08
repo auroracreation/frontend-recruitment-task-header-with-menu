@@ -139,6 +139,13 @@ header {
     -webkit-box-pack: justify;
         -ms-flex-pack: justify;
             justify-content: space-between; }
+    header .header__bar .--menu-icon {
+      display: block;
+      position: fixed;
+      margin: 0;
+      top: 1.8rem;
+      right: 0;
+      left: 0; }
     header .header__bar .header__bar__form {
       margin-left: 8em; }
     header .header__bar .header__bar__container-koszyk {

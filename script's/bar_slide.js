@@ -7,9 +7,10 @@ let menuIconElem = document.body.querySelector(".--menu-icon")
 
 function barSlider(event){
     if(event.target.className != '--menu-icon') return;
+    menuIconElem.classList.add('--bar-open')
     headerNavbar.style.display = 'flex';
     searchField.style.display = 'flex';
-    menuIconElem.style.display = 'none';
+    menuIconElem.innerHTML = 'X';
 }
 
 header.addEventListener('click', barSlider)
