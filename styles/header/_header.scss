@@ -180,8 +180,12 @@ header{
     
         .header__bar{
             flex-flow: column wrap;
-            margin: 2.5rem 0 5rem 0;
+            margin: 1px 0 5rem 0;
             width: 100vw;
+
+            .--menu-icon{
+
+            }
 
             .header__bar--aurora-logo{
                 display: none;
