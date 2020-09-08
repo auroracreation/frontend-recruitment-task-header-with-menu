@@ -41,7 +41,7 @@
       width: 60vw; } }
 
 @media screen and (max-width: 768px) {
-  .header__bar__form--search-button {
+  .header__bar__form--sumbit {
     display: none; } }
 
 .--menu-icon {
@@ -412,5 +412,4 @@ body {
     text-decoration: none; }
     body a:focus {
       text-decoration: underline; }
-
 /*# sourceMappingURL=main.css.map */
