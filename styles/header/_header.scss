@@ -15,7 +15,7 @@ header{
         font-size: 12px;
         justify-content: space-between;
 
-        border-bottom: solid 1px #CDCDCD;
+        // border-bottom: solid 1px #CDCDCD;
 
         .header__high-bar__contact-side{
             @include header__high-bar--set-size(25em, 3em, flex, row nowrap);
@@ -26,11 +26,34 @@ header{
                 margin: 0;
             }
         }
-
+        
         .header__high-bar__konto-side{
             @include header__high-bar--set-size(20em, 3em, flex, row nowrap);
             align-items: center;
             justify-content: space-evenly;
+        }
+        
+        &::after{
+            content: '';
+            display: block;
+            height: 1px;
+            overflow: hidden;
+            position: fixed;
+            top: 2.25rem;
+            right: 0;
+            left: 0;
+            
+            background-color: #CDCDCD;
+
+            @media screen and (max-width: 980px) and (min-width: 769px){
+                top: 1.5rem;
+            }
+            @media screen and (max-width: 768px) and (min-width: 501px){
+                top: 1.5rem;
+            }
+            @media screen and (max-width: 500px){
+                top:1.8rem;
+            }
         }
     }
 
@@ -89,6 +112,7 @@ header{
                 font-weight: 600;
             }
         }
+
     }
 
 

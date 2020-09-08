@@ -5,6 +5,10 @@
     text-align: center;
     width: 10em;
 
+    &:last-child{
+        border-right: 1px solid #CDCDCD;
+    }
+
     @media screen and (max-width: 980px) and (min-width: 769px){
         height: 2.5em;
         line-height: 25px;

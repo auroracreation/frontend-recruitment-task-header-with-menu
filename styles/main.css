@@ -4,6 +4,8 @@
   line-height: 35px;
   text-align: center;
   width: 10em; }
+  .header__high-bar__konto-side--login-button:last-child {
+    border-right: 1px solid #CDCDCD; }
   @media screen and (max-width: 980px) and (min-width: 769px) {
     .header__high-bar__konto-side--login-button {
       height: 2.5em;
@@ -108,8 +110,7 @@ header {
     font-size: 12px;
     -webkit-box-pack: justify;
         -ms-flex-pack: justify;
-            justify-content: space-between;
-    border-bottom: solid 1px #CDCDCD; }
+            justify-content: space-between; }
     header .header__high-bar .header__high-bar__contact-side {
       width: 25em;
       height: 3em;
@@ -144,6 +145,25 @@ header {
       -webkit-box-pack: space-evenly;
           -ms-flex-pack: space-evenly;
               justify-content: space-evenly; }
+    header .header__high-bar::after {
+      content: '';
+      display: block;
+      height: 1px;
+      overflow: hidden;
+      position: fixed;
+      top: 2.25rem;
+      right: 0;
+      left: 0;
+      background-color: #CDCDCD; }
+      @media screen and (max-width: 980px) and (min-width: 769px) {
+        header .header__high-bar::after {
+          top: 1.5rem; } }
+      @media screen and (max-width: 768px) and (min-width: 501px) {
+        header .header__high-bar::after {
+          top: 1.5rem; } }
+      @media screen and (max-width: 500px) {
+        header .header__high-bar::after {
+          top: 1.8rem; } }
   header .header__bar {
     -webkit-box-align: center;
         -ms-flex-align: center;
