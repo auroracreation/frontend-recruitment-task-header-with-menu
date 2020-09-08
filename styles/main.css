@@ -64,6 +64,19 @@
       display: -ms-flexbox;
       display: flex; } }
 
+#koszykPanel {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+  text-align: center;
+  width: 10em;
+  position: fixed;
+  top: 7rem;
+  right: 10px;
+  border: 1px solid #fcdfef;
+  border-radius: 5px;
+  background-color: #fff; }
+
 header {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -167,7 +180,8 @@ header {
           -ms-flex-pack: space-evenly;
               justify-content: space-evenly;
       margin-right: 2em;
-      width: 9em; }
+      width: 9em;
+      z-index: 3; }
       header .header__bar .header__bar__container-koszyk .header__bar__container-koszyk--koszyk-image {
         height: 1.5em;
         width: 1.5em; }

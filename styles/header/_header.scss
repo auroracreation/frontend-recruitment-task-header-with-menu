@@ -1,5 +1,6 @@
 @import '_mixins';
 @import '_buttons';
+@import '_koszykPanel';
 
 header{
     display: flex;
@@ -66,6 +67,7 @@ header{
             justify-content: space-evenly;
             margin-right: 2em;
             width: 9em;
+            z-index: 3;
 
             .header__bar__container-koszyk--koszyk-image{
                 height: 1.5em;

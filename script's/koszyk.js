@@ -1,14 +1,13 @@
 "use strict"
 
 let koszykElem = header.querySelector('.header__bar__container-koszyk')
+let koszykElem1 = header.querySelector('.header__bar__container-koszyk--koszyk-image')
+let koszykElem2 = header.querySelector('.header__bar__container-koszyk--koszyk-name')
 
 function koszykOpening(event){
     if(koszykElem.classList.contains('koszyk-is-open') && !event.target.classList.contains('header__bar__container-koszyk')){
-        console.log('step 1')
         koszykElem.classList.remove('koszyk-is-open');
-        console.log('step 2')
         koszykPanel.remove();
-        console.log('step 3')
     }
     if(!event.target.classList.contains('header__bar__container-koszyk')) return;
     if(!koszykElem.classList.contains('koszyk-is-open')){
