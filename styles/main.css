@@ -70,16 +70,16 @@
 
 #koszykPanel {
   display: grid;
+  font-size: 12px;
   grid-template-columns: 1fr 1fr;
   grid-template-rows: 1fr 1fr 1fr;
-  text-align: center;
-  width: 15em;
   position: fixed;
-  top: 7rem;
   right: 10px;
-  font-size: 12px;
+  top: 7rem;
   -webkit-transition: all 1s;
   transition: all 1s;
+  text-align: center;
+  width: 15em;
   border: 1px solid #fcdfef;
   border-radius: 5px;
   background-color: #fff; }
