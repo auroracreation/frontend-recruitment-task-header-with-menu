@@ -23,6 +23,7 @@ W folderze src znajdziesz plik z zadaniem w formacie .psd. Rozwiąż zadanie na 
 1. Użycie HTML i CSS do rozwiązania zadania.
 2. RWD - użyj breakpointów wedle własnego uznania.
 3. Podejście mobile first
+4. Zadanie musi być dostarczone w postaci linku do repozytorium GitHub.
 
 ## Co może (ale nie musi) być zawarte w rozwiązaniu
 
