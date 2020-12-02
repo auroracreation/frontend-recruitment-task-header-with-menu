@@ -22,6 +22,7 @@ W folderze src znajdziesz plik z zadaniem w formacie .psd. Rozwiąż zadanie na 
 
 1. Użycie HTML i CSS do rozwiązania zadania.
 2. RWD - użyj breakpointów wedle własnego uznania.
+3. Podejście mobile first
 
 ## Co może (ale nie musi) być zawarte w rozwiązaniu
 
@@ -67,3 +68,4 @@ Rozwiązanie powinno działać na następujących wersjach przeglądarek:
 6. Optymalizacja kodu.
 7. Dobre praktyki programistyczne.
 8. Strona wyglądająca tak samo niezależnie od przeglądarki.
+9. Mobile first
